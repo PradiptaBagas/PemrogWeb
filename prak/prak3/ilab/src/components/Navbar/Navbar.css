@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+/* Style the logo */
+.navbar .logo {
+  /* color: #fff; */
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Center the menu items horizontally */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the menu items */
+.navbar li {
+  margin: 0 20px; /* Add spacing between menu items */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Style the signup and login buttons */
+.navbar .buttons {
+  display: flex;
+}
+
+.navbar .buttons button {
+  /* background-color: #66f; */
+  /* color: #fff; */
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+
+.navbar .buttons button:hover {
+  background-color: #444;
+}
+
+#signup {
+  background-color: white;
+  border: #333 2px solid;
+  color: #333;
+}
+#login {
+  background-color: rgb(77, 163, 255);
+  color: white;
+}

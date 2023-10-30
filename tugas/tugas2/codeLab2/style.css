@@ -1,0 +1,28 @@
+body{
+    background-color: #6096B4;
+}
+.bg-form {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+input.text {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input.submit {
+    background-color: #6096B4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
